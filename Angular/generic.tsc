@@ -1,0 +1,23 @@
+
+/*
+
+class ArrayWrapper<T> {
+    private records: T[] = [];
+  
+    addRecord(record: T): void {
+      this.records.push(record);
+    }
+  
+    getAllRecords(): T[] {
+      return this.records;
+    }
+  }
+  
+  // Example usage with products:
+  
+  interface Product {
+    id: number;
+    name: string;
+    price: number;
+  }
+  
